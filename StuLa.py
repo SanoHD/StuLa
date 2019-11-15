@@ -8,7 +8,7 @@ func = {}
 args = []
 imported = []
 commentsymbol = ";"
-filename = "code.txt"
+filename = sys.argv[1]
 LN = 0
 valid = list(abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890_)
 
